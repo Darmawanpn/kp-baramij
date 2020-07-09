@@ -1,0 +1,97 @@
+Tugas
+1. Pilih 2 diantara json di bawah
+2. Buat Table didatabase dan buat fitur insert  data json menggunakan postmen
+3. Gunakan http://json2struct.mervine.net/ untuk membuat struct golang
+4. Gunakan tugas/Task 3  sebagai contoh 
+
+=====================================================
+
+{
+      "id": 157538,
+      "date": "2017-07-21T10:30:34",
+      "date_gmt": "2017-07-21T17:30:34",
+      "guid": {
+          "rendered": "https://www.sitepoint.com/?p=157538"
+      },
+      "modified": "2017-07-23T21:56:35",
+      "modified_gmt": "2017-07-24T04:56:35",
+      "slug": "why-the-iot-threatens-your-wordpress-site-and-how-to-fix-it",
+      "status": "publish",
+      "type": "post",
+      "link": "https://www.sitepoint.com/why-the-iot-threatens-your-wordpress-site-and-how-to-fix-it/",
+      "title": {
+          "rendered": "Why the IoT Threatens Your WordPress Site (and How to Fix It)"
+      }
+}
+
+=================================================
+{
+   "name":"Molecule Man",
+   "age":29,
+   "secretIdentity":"Dan Jukes",
+   "powers":{
+      "Task1":"Radiation resistance",
+      "Task2":"Turning tiny",
+      "Task3":"Radiation blast"
+   },
+   "errors":{
+      "status":"422",
+      "source":{
+         "pointer":"/data/attributes/firstName"
+      },
+      "title":"Invalid Attribute",
+      "detail":"First name must contain at least three characters."
+   }
+}
+=================================================
+{
+   "id":"0001",
+   "type":"donut",
+   "name":"Cake",
+   "image":{
+      "url":"images/0001.jpg",
+      "width":200,
+      "height":200
+   },
+   "thumbnail":{
+      "url":"images/thumbnails/0001.jpg",
+      "width":32,
+      "height":32
+   }
+}
+=================================================
+{
+   "colors":{
+      "color":"black",
+      "category":"hue",
+      "type":"primary",
+      "code":{
+         "rgba":"255,255,255,1",
+         "hex":"#000"
+      }
+   },
+   "thumbnail":{
+      "url":"images/thumbnails/0001.jpg",
+      "width":32,
+      "height":32
+   }
+}
+================================================
+{
+   "clients":{
+      "id":"59761c23b30d971669fb42ff",
+      "isActive":"true",
+      "age":36,
+      "name":"Dunlap Hubbard",
+      "gender":"male",
+      "company":"CEDWARD",
+      "email":"dunlaphubbard@cedward.com",
+      "phone":"+1 (890) 543-2508",
+      "address":{
+         "street":"6649 N Blue Gum St",
+         "city":"New Orleans",
+         "state":"LA",
+         "zip":"70116"
+      }
+   }
+}

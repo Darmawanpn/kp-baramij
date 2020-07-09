@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "dbaf78c0-0786-41cd-b046-5670d9dfc722",
+		"name": "task4",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8282/getImage",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"id\":\"0001\",\r\n   \"type\":\"donut\",\r\n   \"name\":\"Cake\",\r\n   \"image\":{\r\n      \"url\":\"images/0001.jpg\",\r\n      \"width\":200,\r\n      \"height\":200\r\n   },\r\n   \"thumbnail\":{\r\n      \"url\":\"images/thumbnails/0001.jpg\",\r\n      \"width\":32,\r\n      \"height\":32\r\n   }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8282/getImage",
+					"host": [
+						"localhost"
+					],
+					"port": "8282",
+					"path": [
+						"getImage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8282/getColorThumbnail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"colors\":{\r\n      \"color\":\"black\",\r\n      \"category\":\"hue\",\r\n      \"type\":\"primary\",\r\n      \"code\":{\r\n         \"rgba\":\"255,255,255,1\",\r\n         \"hex\":\"#000\"\r\n      }\r\n   },\r\n   \"thumbnail\":{\r\n      \"url\":\"images/thumbnails/0001.jpg\",\r\n      \"width\":32,\r\n      \"height\":32\r\n   }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8282/getColorThumbnail",
+					"host": [
+						"localhost"
+					],
+					"port": "8282",
+					"path": [
+						"getColorThumbnail"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
